@@ -1,0 +1,27 @@
+@media (max-width: 1065px) {
+    .img-woman--mobile,
+    .pattern-mobile {
+        display: block;
+        position: absolute;
+    }
+
+    .img-woman--mobile {
+        top: -120px;
+        left: 100px;
+    }
+
+    .img-woman,
+    .pattern-desk,
+    .img-box {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        margin: 0 20px;
+    }
+}
